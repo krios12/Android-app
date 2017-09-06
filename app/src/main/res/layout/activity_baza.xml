@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:gravity="center"
+    tools:context="com.example.dawid.myapplication.BazaDanych">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:onClick="clean1"
+                android:text="Marka Telefonu"
+                />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:onClick="clean2"
+                android:text="Model Telefonu"
+                />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="250dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:onClick="clean2"
+                android:text="Id rekordu"
+                />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dodaj telefon"
+                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteY="444dp"
+                android:layout_marginTop="300dp"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pokaż wszystkie telefony"
+                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteY="444dp"
+                android:layout_marginTop="350dp"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aktualizuj wybrany telefon (pole id)"
+                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteY="444dp"
+                android:layout_marginTop="400dp"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usun wybrany telefon (pole id)"
+                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteY="444dp"
+                android:layout_marginTop="450dp"
+                android:layout_centerHorizontal="true"/>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
